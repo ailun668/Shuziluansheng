@@ -1,0 +1,15 @@
+.vue3 {
+  border: 1px solid blue;
+  padding: 20px;
+  border-radius: 4px;
+}
+.blue {
+  color: #607970;
+  font-size: 14px;
+  padding: 4px;
+}
+.yellow{
+  border:2px solid blue;
+  padding: 4px;
+  
+}

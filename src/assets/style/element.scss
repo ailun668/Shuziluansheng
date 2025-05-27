@@ -1,0 +1,71 @@
+html {
+  .el-dropdown,
+  .el-dropdown * {
+    outline: none;
+  }
+  .el-pagination.is-background {
+    button {
+      border: 1px solid #fff;
+      color: #fff;
+      &:disabled {
+        background-color: rgba(#000, 0);
+        border-color: var(--el-text-color-placeholder);
+      }
+    }
+    .el-pager li {
+      border: 1px solid #fff;
+      color: #fff;
+      &.is-active {
+        border: none;
+      }
+    }
+  }
+  .el-pagination__goto,
+  .el-pagination__total {
+    color: #fff;
+  }
+  .el-table {
+    .el-table__header-wrapper {
+      .el-table__header {
+        th {
+          color: #fff;
+          text-transform: uppercase;
+        }
+      }
+
+      .cell {
+        word-break: break-word !important;
+      }
+    }
+  }
+  // 重置el-select清除图标
+  @mixin reset-el-select-clear-icon($content) {
+    &::after {
+      font-family: 'iconfont'; /* 替换为你的 Iconfont 字体名称 */
+      content: $content; /* 替换为你的清除图标的 Unicode 编码 */
+      width: 14px;
+      height: 14px;
+      font-size: 14px;
+      color: #061c3f;
+      font-style: normal;
+    }
+    svg {
+      display: none;
+    }
+  }
+  .el-select {
+    /* 替换清除图标 */
+    .el-select__suffix .el-select__icon.el-select__clear {
+      @include reset-el-select-clear-icon('\e62e');
+    }
+    // 有数据时
+    &.el-select-ondata {
+      .el-select__suffix .el-select__icon {
+        @include reset-el-select-clear-icon('\e62e');
+      }
+    }
+    .el-select__suffix .el-select__icon {
+      @include reset-el-select-clear-icon('\e62f');
+    }
+  }
+}

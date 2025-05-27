@@ -1,0 +1,10 @@
+*,
+::before,
+::after {
+  box-sizing: content-box;
+  border: 0 none;
+}
+
+.container {
+  max-width: none;
+}

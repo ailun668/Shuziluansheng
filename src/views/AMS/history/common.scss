@@ -1,0 +1,25 @@
+#weather,
+.sangoai-comment {
+  width: 100%;
+}
+
+#weather {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  width: 100%;
+  flex: auto;
+}
+.btns {
+  .btn {
+    margin-right: 12px;
+    &.graph {
+      :deep(.svg-icon) {
+        width: 12px;
+        height: 12px;
+      }
+    }
+  }
+}

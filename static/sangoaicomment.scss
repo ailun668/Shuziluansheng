@@ -1,0 +1,129 @@
+$bgcolor: #114f12;
+$bg1    : #0c3a0a;
+$c1     : #e33e3e;
+$c2     : #e33e3e;
+$c3     : #797979;
+$c4     : #45a643;
+$c5     : #360000;
+
+.amsgive {
+  background: $c3;
+  box-shadow:
+    inset 0 10px 20px 0 #797979,
+    0 2px 0 0 #797979;
+}
+
+.logincomment {
+  width     : 300px;
+  background: $c2;
+}
+
+.is-guttered {
+  // font-weight: 600;
+  font-size: 18px;
+  // color: blue;
+}
+
+.tr {
+  text-align: right;
+}
+
+.bg {
+  background: $bg1;
+}
+
+.bgcolor {
+  background: $bgcolor;
+}
+
+.elButton {
+  padding  : 14px 12px;
+  font-size: 14px;
+}
+
+.el-link {
+  font-size: 16px !important;
+}
+
+.rowClassI:hover,
+.rowClassI:hover td {
+  background: #d12a2a !important;
+}
+
+.active.el-dropdown-menu__item {
+  position        : relative;
+  background-color: #0c151e !important;
+  color           : #fff !important;
+  justify-content : space-between !important;
+
+  .el-icon {
+    color   : red;
+    position: absolute;
+    right   : -2px;
+  }
+}
+
+/* 在组件的style标签中添加上述CSS样式 */
+// .el-select-dropdown {
+//   max-height: 200px;
+//   overflow-y: auto;
+// }
+.el-drawer__header {
+  margin-bottom: 2px !important;
+
+  h4 {
+    height: 33px;
+  }
+}
+
+/* 必需有scoped */
+.edit-route :deep(.el-transfer-panel) {
+  width: 40%;
+}
+
+.border {
+  text-align   : left;
+  padding-left : 8px;
+  border-bottom: 1px solid #444c55;
+}
+
+.border:last-child {
+  border: none;
+}
+
+.rescell .cell {
+  padding: 0 !important;
+}
+
+.custom-drawer .el-form {
+  padding   : 0px;
+  background: linear-gradient(0deg, #F4F9FB 0%, #F4F9FB 100%), url(<path-to-image>) lightgray -959px 0px / 199.792% 502.326% no-repeat;
+}
+
+.custom-drawer .el-drawer__body {
+  padding : 0px;
+  overflow: hidden;
+  /* 使用 !important 确保样式优先级 */
+}
+
+.custom-drawer .el-drawer__header {
+  background: linear-gradient(0deg, #F4F9FB 0%, #F4F9FB 100%), url(<path-to-image>) lightgray -959px 0px / 199.792% 502.326% no-repeat;
+}
+
+.el-popper.is-customized {
+  color     : #fff;
+  background: #E05139;
+
+}
+
+.el-popper.is-customized .el-popper__arrow::before {
+  color     : #fff;
+  right     : 0;
+  background: #E05139;
+}
+
+.coolwater506 {
+  .el-col-5 {
+    max-width: 20% !important;
+  }
+}

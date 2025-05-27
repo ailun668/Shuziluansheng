@@ -1,0 +1,16 @@
+.box,
+.layout,
+.type,
+.container {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.container {
+  align-content: flex-start;
+}
+
+.chart-comp {
+  height: 100%;
+  width: 100%;
+}

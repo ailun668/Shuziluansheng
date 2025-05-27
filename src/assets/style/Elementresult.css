@@ -1,0 +1,92 @@
+
+.handerBgClass {
+  /* background-color: #0066b3 !important; */
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.el-button.is-text {
+  color: #fff !important;
+  background: #315378 !important;
+  border: 1px solid  #387cb8 !important;  
+}
+.yuan_top{
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  
+  background: var(--mimic-bg);
+  transform: translate(-45%, 100%);
+  position: absolute;
+  bottom: 0px;
+ }
+
+ .yuan_bottom{
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  
+  background: var(--mimic-bg);
+  transform: translate(-45%, -100%);
+  position: absolute;
+  top: 0px;
+ }
+
+ .yuan_top2{
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background: var(--mimic-bg);
+  transform: translate(0%, 40%);
+  position: absolute;
+  bottom: 0px;
+ }
+ .yuan_topetween{
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background: var(--mimic-bg);
+  transform: translate(-40%, 100%);
+  position: absolute;
+  top: 126px;
+ }
+ .yuan_topetween2{
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background: var(--mimic-bg);
+  transform: translate(-40%, 0%);
+  position: absolute;
+  top:50px
+ }
+
+ .yuan_topetween3{
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background: var(--mimic-bg);
+  transform: translate(-40%, 0%);
+  position: absolute;
+  top:152px
+ }
+
+ .yuan_bottomright{
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background: var(--mimic-bg);
+  transform: translate(40%, -40%);
+  position: absolute;
+  top: 0px;
+  right: -270px;
+ }
+ .yuan_bottomright2{
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background: var(--mimic-bg);
+  transform: translate(40%, -40%);
+  position: absolute;
+  top: 0px;
+  right: -410px;
+ }

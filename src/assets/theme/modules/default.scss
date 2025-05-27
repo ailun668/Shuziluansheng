@@ -1,0 +1,135 @@
+html[data-theme='default'] {
+  .el-input {
+    --el-input-border-color: #7d86a9;
+  }
+
+  .el-pagination {
+    --el-pagination-button-bg-color: rgba(0, 0, 0, 0);
+  }
+
+  .el-radio-button {
+    --el-radio-button-checked-bg-color: #1990f8;
+    --el-radio-button-checked-text-color: var(--el-color-white);
+    --el-radio-button-checked-border-color: #1990f8;
+    --el-radio-button-disabled-checked-fill: var(--el-border-color-extra-light);
+  }
+
+  .el-table {
+    --el-table-row-hover-bg-color: rgba(25, 144, 248, 0.2);
+    --el-table-header-bg-color: #545454;
+    --el-table-border-color: #444c55;
+    --el-table-tr-bg-color: var(--info-area-bg);
+    --el-fill-color-blank: var(--info-area-bg);
+    --el-table-text-color: #fff;
+  }
+
+  .el-switch {
+    --el-switch-on-color: #1890ff;
+    --el-switch-off-color: #5c5c5c;
+  }
+
+  --el-input-color: #7d86a9;
+  // 主背景色
+  --main-page-bg: #142637;
+  // 信息区域背景色
+  --info-area-bg: #0c151e;
+  --info-area-bg-rgb: 12, 21, 30;
+  // 主题高亮色 主色
+  --main-color: #1990f8;
+  // 在线、成功提示
+  --main-success-color: #0bd37b;
+  // 警告、危险提示
+  --main-warn-color: #f87528;
+  // 报警背景色
+  --main-alarm-color: #e05139;
+  --main-alarm-color-rgb: 224, 81, 57;
+  // 无效、失效、无连接
+  --main-invalid-color: #8e9491;
+  // 下拉框文字颜色
+  --main-dropdown-color: #16325c;
+  // 按钮渐变起始色
+  --btn-linear-start: #00a4fa;
+  // 按钮渐变结束色
+  --btn-linear-end: #006bf2;
+  // 按钮hover第二层渐变色
+  --btn-linear-hover: rgba(252, 252, 252, 0.25);
+  // 按钮info
+  --btn-info-color: #757677;
+
+  // monitor-alarm 单元格背景色
+  --monitor-alarm-cell-bg: rgba(255, 255, 255, 0.12);
+  --monitor-font-color: #fff; // 默认字体颜色
+
+  --mimic-active-color: #358ed7;
+  --scrollbar-color: #354c62;
+  --list-item-color: rgba(92, 110, 126, 0.3);
+
+  --scrollbar-bg-color: #909399;
+  --scrollbar-hover-bg-color: #909399;
+
+  --mimic-bg: #0f7bde; // 边框颜色
+  --system-bg: #008ff6;
+  --system-right-bg: --system-border-color: #395e81;
+
+  --monitor-num-chart-num-color: #63b0ff;
+  --monitor-num-chart-unit-color: #8ea7c2;
+
+  --monitor-hour-chart-block-color: #424052;
+  --monitor-hour-chart-background: rgba(3, 18, 36, 0.8);
+  --monitor-hour-chart-shadow: rgba(255, 254, 254, 0.46);
+
+  --el-color-danger: #f54b5e;
+  // 508509 start
+  --dg508509mimic-bg: #82ccf9;
+  // 508509 end
+  --pmsmimic-bgcolor: #1a8aec;
+
+  // 数据格的字体颜色
+  --data-cell-color: #cbdcef;
+  // 数据格的背景颜色
+  --data-cell-bg-color: rgba(#738295, 0.1);
+  --data-cell-bg-color-rgb: 115, 130, 149;
+  // 数据格的边框颜色
+  --data-cell-border-color: #334163;
+
+  // 状态颜色
+  --status-running: #0ea609;
+  --status-running-border: #a4eea2;
+  .status-running-bg {
+    background-color: var(--status-running);
+  }
+  .status-running-color {
+    color: var(--status-running);
+  }
+  --status-ready: #e2b102;
+  --status-ready-border: #fffac9;
+
+  .status-ready-bg {
+    background-color: var(--status-ready);
+  }
+  .status-ready-color {
+    color: var(--status-ready);
+  }
+  --status-stop: #ff0f00;
+  --status-stop-border: #efbdbd;
+  .status-stop-bg {
+    background-color: var(--status-stop);
+  }
+  .status-stop-color {
+    color: var(--status-stop);
+  }
+  --status-info: #1762af;
+  .status-info-bg {
+    background-color: var(--status-info);
+  }
+  .status-info-color {
+    color: var(--status-info);
+  }
+  --status-disable: #8e9491;
+  .status-disable-bg {
+    background-color: var(--status-disable);
+  }
+  .status-disable-color {
+    color: var(--status-disable);
+  }
+}

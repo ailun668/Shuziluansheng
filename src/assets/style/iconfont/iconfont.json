@@ -1,0 +1,338 @@
+{
+  "id": "4476224",
+  "name": "SANGO_AMS",
+  "font_family": "iconfont",
+  "css_prefix_text": "iconfont",
+  "description": "SANGO_AMS",
+  "glyphs": [
+    {
+      "icon_id": "42837139",
+      "name": " warn",
+      "font_class": "warn",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
+      "icon_id": "42253886",
+      "name": "graph",
+      "font_class": "graph",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "7708023",
+      "name": "眼睛_开",
+      "font_class": "yanjing_kai",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "7708024",
+      "name": "眼睛_闭",
+      "font_class": "yanjing_bi",
+      "unicode": "e631",
+      "unicode_decimal": 58929
+    },
+    {
+      "icon_id": "42102074",
+      "name": "取消1",
+      "font_class": "quxiao1",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "42102196",
+      "name": "down",
+      "font_class": "down",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "42075208",
+      "name": "info-fill",
+      "font_class": "info-fill",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "42015497",
+      "name": "account",
+      "font_class": "account",
+      "unicode": "e62b",
+      "unicode_decimal": 58923
+    },
+    {
+      "icon_id": "42013339",
+      "name": "delete",
+      "font_class": "delete",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "42013112",
+      "name": "History_pre",
+      "font_class": "History_pre",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "42013111",
+      "name": "History",
+      "font_class": "History",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "42012902",
+      "name": "list",
+      "font_class": "list",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "42012903",
+      "name": "check-ack",
+      "font_class": "check-ack",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "42012905",
+      "name": "mute",
+      "font_class": "mute",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "42012906",
+      "name": "export",
+      "font_class": "export",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "42012998",
+      "name": "system info",
+      "font_class": "a-systeminfo1",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "42013039",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "41993930",
+      "name": "Reload",
+      "font_class": "Reload",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "41993932",
+      "name": "sort-down",
+      "font_class": "sort-down",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "41993933",
+      "name": "signal test",
+      "font_class": "a-signaltest",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "41993931",
+      "name": "icon_alarm",
+      "font_class": "icon_alarm",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "41993929",
+      "name": "password",
+      "font_class": "password",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "41993928",
+      "name": "log out",
+      "font_class": "a-logout",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "41993926",
+      "name": "Monitor_pre",
+      "font_class": "Monitor_pre",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "41993927",
+      "name": "Monitor",
+      "font_class": "Monitor",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "41993925",
+      "name": "icon_security",
+      "font_class": "icon_security",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "41993924",
+      "name": "log",
+      "font_class": "log",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "41993923",
+      "name": "data open",
+      "font_class": "a-dataopen",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "41993922",
+      "name": "change password",
+      "font_class": "a-changepassword",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "41993921",
+      "name": "alarm 2",
+      "font_class": "a-alarm2",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "41993920",
+      "name": "Config_pre",
+      "font_class": "Config_pre",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "41993918",
+      "name": "Alarm",
+      "font_class": "Alarm",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "41993919",
+      "name": "Config",
+      "font_class": "Config",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "41993917",
+      "name": "Alarm_pre",
+      "font_class": "Alarm_pre",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "41993936",
+      "name": "system info",
+      "font_class": "a-systeminfo",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "41993935",
+      "name": "System_pre",
+      "font_class": "System_pre",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "41993934",
+      "name": "System",
+      "font_class": "System",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "882031",
+      "name": "bell",
+      "font_class": "tixing",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "2681453",
+      "name": "014-mixing",
+      "font_class": "-mixing",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "15855129",
+      "name": "ic_安全监测实时报警数量统计面版",
+      "font_class": "ic_anquanjianceshishibaojingshuliangtongjimianban",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "2305120",
+      "name": "linkage alarm",
+      "font_class": "linkagealarm",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "6528446",
+      "name": "打印机",
+      "font_class": "dayinji",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "10640849",
+      "name": "警报",
+      "font_class": "jingwuicon_svg-",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "17834280",
+      "name": "ring",
+      "font_class": "ring",
+      "unicode": "e770",
+      "unicode_decimal": 59248
+    },
+    {
+      "icon_id": "18164960",
+      "name": "报警,警报,报警灯,危险",
+      "font_class": "alarm",
+      "unicode": "e871",
+      "unicode_decimal": 59505
+    },
+    {
+      "icon_id": "18169660",
+      "name": "打印机,打印,传真,复印机",
+      "font_class": "print",
+      "unicode": "e931",
+      "unicode_decimal": 59697
+    },
+    {
+      "icon_id": "32755116",
+      "name": "蜂鸣器",
+      "font_class": "fengmingqi",
+      "unicode": "e73c",
+      "unicode_decimal": 59196
+    }
+  ]
+}

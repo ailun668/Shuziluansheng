@@ -1,0 +1,306 @@
+// $--button-height : 36px;
+// $--button-padding: 0 20px;
+// $--input-height: 32px;
+// $--size-base: 14px !default;$--button-height: 48px !default;
+// $--input-height: 40px !default;
+$bgcolor: #1b4516; 
+@font-face {
+  font-family: 'Roboto';
+  src: url('./font_roboto/Roboto-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-weight: 100;
+}
+
+html,
+body,
+div,
+p,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  font-family: Roboto;
+}
+
+li {
+  list-style-type: none;
+}
+
+canvas {
+  outline: none !important;
+  border: none;
+}
+
+*[disabled='true'] {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+.flex-justify-between {
+  justify-content: space-between;
+}
+
+.flex-justify-around {
+  justify-content: space-around;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-justify-end {
+  justify-content: flex-end;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+@media print {
+  .hide-in-print {
+    display: none !important;
+  }
+}
+
+.el-button.is-disabled,
+.el-button.is-disabled:focus,
+.el-button.is-disabled:hover {
+  background-color: #c0c4cc !important;
+  border-color: #c0c4cc !important;
+}
+
+.flex11 {
+  justify-content: space-between;
+}
+
+#weather,
+.sangoai-comment {
+  width: 100%;
+  height: 100%;
+}
+
+#app {
+  width: 100%;
+  height: 100vh;
+}
+
+.pd4 {
+  padding: 4px;
+}
+
+.tl {
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+.felx {
+  display: flex;
+}
+div.a3 {
+  .label {
+    background: hsl(50, 94%, 59%) !important;
+  }
+}
+
+div.elcardClass.red {
+  border: 1px solid rgb(160, 3, 3);
+  box-shadow: 4px 1px 1px 0 rgb(160, 3, 3);
+}
+
+.elcardClass {
+  .device {
+    font-size: 13px;
+
+    img {
+      width: 26px;
+    }
+  }
+}
+
+div.elcardClass.red {
+  border: 1px solid #999;
+  background-image: linear-gradient(bottom, rgb(80, 12, 12) 0%, rgb(163, 3, 3) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(80, 12, 12) 0%, rgb(163, 3, 3) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(80, 12, 12) 0%, rgb(163, 3, 3) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(80, 12, 12) 0%, rgb(163, 3, 3) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(80, 12, 12) 0%, rgb(163, 3, 3) 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(80, 12, 12)), color-stop(1, rgb(163, 3, 3)));
+  -webkit-box-shadow:
+    inset 0px 1px 0px rgb(80, 12, 12),
+    0px 1px 0px #fff;
+  -moz-box-shadow:
+    inset 0px 1px 0px rgb(80, 12, 12),
+    0px 1px 0px #fff;
+  box-shadow:
+    inset 0px -1px 0px 0px #094606,
+    0px 1px 0px #072e05;
+}
+
+.elcardClass.active {
+  width: 94%;
+  border: 1px solid #999;
+  box-shadow: 4px 1px 1px 0 rgb(59 143 58);
+}
+
+.elcardClass {
+  color: #ededed;
+  padding: 6px 6px !important;
+  justify-content: space-between;
+  border: 1px solid #999;
+  background-image: linear-gradient(bottom, rgb(14, 80, 12) 0%, rgb(44, 137, 46) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(14, 80, 12) 0%, rgb(44, 137, 46) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(14, 80, 12) 0%, rgb(44, 137, 46) 100%);
+  background-image: -webkit-linear-gradient(bottom, rgb(14, 80, 12) 0%, rgb(44, 137, 46) 100%);
+  background-image: -ms-linear-gradient(bottom, rgb(14, 80, 12) 0%, rgb(44, 137, 46) 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(14, 80, 12)), color-stop(1, rgb(44, 137, 46)));
+  -webkit-box-shadow:
+    inset 0px 1px 0px rgb(14, 80, 12),
+    0px 1px 0px #fff;
+  -moz-box-shadow:
+    inset 0px 1px 0px rgb(14, 80, 12),
+    0px 1px 0px #fff;
+  box-shadow:
+    inset 0px -1px 0px 0px #094606,
+    0px 1px 0px #072e05;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  width: 85%;
+  cursor: pointer;
+  gap: 2px;
+  flex-direction: column;
+  display: flex;
+  transition: all 0.1s;
+
+  .device {
+    img {
+      vertical-align: middle;
+    }
+  }
+
+  div.flex {
+    justify-content: space-between;
+    padding-top: 8px;
+    font-weight: 300;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  div {
+    span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: var(--scrollbar-color);
+      box-shadow:
+        inset 0 10px 20px 0 var(--scrollbar-color),
+        0 2px 0 0 rgb(4 74 5);
+      transition: 0.5s ease;
+    }
+  }
+
+  .label {
+    padding-right: 10px;
+  }
+}
+
+table {
+  background-color: transparent;
+}
+
+caption {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #777;
+  text-align: left;
+}
+
+th {
+  text-align: left;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+html,
+body {
+  height: 100%;
+
+  @media print {
+    width: 100% !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #909399;
+  border-radius: 4px;
+  opacity: 0.3;
+  transition: width 0.2s ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #909399;
+  opacity: 0.5;
+  transform: scale(1.2);
+}
+
+@keyframes myLightAni {
+  0% {
+    background-color: var(--main-alarm-color);
+  }
+
+  50% {
+    background-color: rgba(var(--main-alarm-color-rgb), 0.3);
+  }
+
+  100% {
+    background-color: var(--main-alarm-color);
+  }
+}
