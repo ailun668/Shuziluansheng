@@ -97,7 +97,7 @@ $c5     : #360000;
 
 .custom-drawer .el-form {
   padding   : 0px;
-  background: linear-gradient(0deg, #F4F9FB 0%, #F4F9FB 100%), url(<path-to-image>) lightgray -959px 0px / 199.792% 502.326% no-repeat;
+  background: linear-gradient(0deg, #F4F9FB 0%, #F4F9FB 100%);
 }
 
 .custom-drawer .el-drawer__body {
@@ -107,7 +107,7 @@ $c5     : #360000;
 }
 
 .custom-drawer .el-drawer__header {
-  background: linear-gradient(0deg, #F4F9FB 0%, #F4F9FB 100%), url(<path-to-image>) lightgray -959px 0px / 199.792% 502.326% no-repeat;
+  background: linear-gradient(0deg, #F4F9FB 0%, #F4F9FB 100%);
 }
 
 .el-popper.is-customized {

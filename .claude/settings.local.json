@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git config:*)",
+      "Bash(git --version:*)",
+      "Bash(dir:*)",
+      "Bash(chmod:*)",
+      "Bash(pnpm run build)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -117,7 +117,8 @@ export default defineConfig(({ command, mode }) => {
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData: `@import "./static/sangoaicomment.scss";`,
+          additionalData: `@use "./static/sangoaicomment.scss" as *;`,
+          api: 'modern-compiler' // 使用现代 Sass 编译器 API
         },
       },
       postcss: {
@@ -142,6 +143,7 @@ export default defineConfig(({ command, mode }) => {
 
     build: {
       outDir: 'SANGOAI',
+      emptyOutDir: true, // 构建前清空输出目录,避免权限问题
       terserOptions: {
         compress: {
           drop_console: true,

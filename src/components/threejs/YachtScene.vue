@@ -92,7 +92,7 @@ const initScene = () => {
   renderer.shadowMap.type = THREE.PCFSoftShadowMap;
   renderer.toneMapping = THREE.ACESFilmicToneMapping; // 添加色调映射，提高视觉效果
   renderer.toneMappingExposure = 1.2; // 增加曝光度
-  renderer.outputEncoding = THREE.sRGBEncoding; // 使用sRGB编码提高颜色准确性
+  renderer.outputColorSpace = THREE.SRGBColorSpace; // 使用sRGB色彩空间提高颜色准确性
 
   // 添加轨道控制器
   controls = new OrbitControls(camera, renderer.domElement);
