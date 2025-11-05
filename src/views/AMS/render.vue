@@ -58,7 +58,11 @@ const handRange = () => {
   emit('handRange', data)
 }
 const showEmptyChart = computed(() => {
-  return canEditList.includes(props.type) && props.type !== 'num' && props.data.range === null
+  if (props.title.includes('Empty Chart')) {
+    return true
+  } else {
+    return canEditList.includes(props.type) && props.type !== 'num' && props.data.range === null
+  }
 })
 const getClassName = () => {
   if (props.direction === 'row') return 'content-row'

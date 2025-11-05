@@ -1,6 +1,18 @@
 import { createApp, provide, inject, reactive } from 'vue'
 import App from './App.vue'
 const app = createApp(App)
+
+// 在开发模式下集成 stagewise 工具栏
+if (process.env.NODE_ENV === 'development') {
+    import ('@stagewise/toolbar-vue').then(({ StagewiseToolbar }) => {
+        app.component('StagewiseToolbar', StagewiseToolbar)
+        const stagewiseConfig = {
+            plugins: []
+        }
+        app.provide('stagewiseConfig', stagewiseConfig)
+    })
+}
+
 import './assets/style/reset.scss'
 import './components/sui/index.css'
 import './assets/style/Elementresult.css'
@@ -55,17 +67,17 @@ app.config.globalProperties.getTitle = getTitle;
 app.config.globalProperties.$router = router
 app.config.globalProperties.$route = router.currentRoute
 app.config.globalProperties = {
-  assembly: assembly.Data,
-  ceshi: 'data',
-  routerpath: null,
-  size: 'default',
-  sgtestStore: sgtestStore,
+    assembly: assembly.Data,
+    ceshi: 'data',
+    routerpath: null,
+    size: 'default',
+    sgtestStore: sgtestStore,
 }
 
 
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
-  app.component(key, component)
+    app.component(key, component)
 }
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'

@@ -3,11 +3,7 @@
     <div class="chartbox flex">
       <div class="video">
         <h1> (Real-Time Monioring):</h1>
-        <!-- <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls width="100% height: 100%;"></video> -->
-        <img src="@/assets/images/video.png" style="width: 100%; height: 100%" />
-        <!-- <iframe :src="videourl" frameborder="0" style="width: 100%; height: 100%; border: 1px solid #dedede"></iframe> -->
-
-        <!-- <video id="video"  style="width: 100%; height: 100%"  controls="" autoplay="" playsinline="" src="blob:http://192.168.110.192:8888/831a9c49-c59c-4670-8a5f-b759017df982"></video> -->
+        <YachtScene />
       </div>
       <div class="realtime">
         <chartbox />
@@ -49,12 +45,14 @@ let ws = void 0,
 
 import chartbox from './comments/chartbox.vue'
 import lineChart from './comments/lineChart.vue'
+import YachtScene from '@/components/threejs/YachtScene.vue'
 import Ws from '@/axios/ws.js'
 export default {
   name: 'AMS',
   components: {
     chartbox,
     lineChart,
+    YachtScene
   },
   data() {
     return {
@@ -987,30 +985,6 @@ export default {
           '43',
           '42',
           '57',
-          '50',
-          '45',
-          '58',
-          '59',
-          '55',
-          '50',
-          '46',
-          '48',
-          '51',
-          '50',
-          '44',
-          '60',
-          '45',
-          '55',
-          '54',
-          '50',
-          '51',
-          '41',
-          '46',
-          '55',
-          '45',
-          '42',
-          '49',
-          '43',
         ],
         yAxis2: [
           '44',
@@ -1298,7 +1272,9 @@ export default {
 
     .video {
       width: 50%;
-      background: #fff;
+      height: 100%;
+      position: relative;
+      overflow: hidden;
     }
 
     .realtime {

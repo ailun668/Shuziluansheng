@@ -17,24 +17,26 @@ dist
 dist-ssr
 *.local
 SANGOAI.zip
-*.zip
-*.sh
-.git
-*.md
-tests
-Dockerfile
-docker-compose.yml
-.dockerignore
+
+# *.zip
+
+# *.sh
+# .git
+# *.md
+# tests
+# Dockerfile
+# docker-compose.yml
+# .dockerignore
 
 
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# .vscode/*
+# !.vscode/extensions.json
+# .idea
+# .DS_Store
+# *.suo
+# *.ntvs*
+# *.njsproj
+# *.sln
+# *.sw?

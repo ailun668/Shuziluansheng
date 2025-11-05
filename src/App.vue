@@ -4,15 +4,19 @@
     <!-- <RouterView /> -->
     <el-config-provider size="small" :locale="locale">
       <router-view />
+      <StagewiseToolbar v-if="isDev" :config="stagewiseConfig" />
     </el-config-provider>
   </div>
 </template>
 <script setup>
 import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
 import en from 'element-plus/dist/locale/en.mjs'
-import { computed, getCurrentInstance, onMounted } from 'vue'
+import { computed, getCurrentInstance, onMounted, inject } from 'vue'
 import { initThemes } from '@/utils/theme'
 import { useRoute } from 'vue-router'
+
+const stagewiseConfig = inject('stagewiseConfig', { plugins: [] })
+const isDev = computed(() => process.env.NODE_ENV === 'development')
 const { proxy } = getCurrentInstance()
 const route = useRoute()
 let routerishsow = computed(() => {

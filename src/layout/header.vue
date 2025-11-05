@@ -2,7 +2,7 @@
   <header class="header">
     <div class="flex flex-align-center" style="gap: 10px">
       <div class="collapse-btn flex flex-align-center">
-        <img src="@/assets/images/logo3.png" alt="" /> &nbsp; | &nbsp; 
+        <!-- <img src="@/assets/images/logo3.png" alt="" /> &nbsp; | &nbsp;  -->
         <img src="@/assets/images/sango.png" alt="sango.png" />
       </div>
       <div class="routerlinks">

@@ -36,7 +36,7 @@ const source = computed(() => {
 const getGlockNum = () => {
   const value = Math.round(props.value)
   const l = value ? String(value).length : 0
-  const len = props.length - l
+  const len = props.length - l - 1
   return '0'.repeat(len)
 }
 const blockNum = ref(getGlockNum())
@@ -55,7 +55,7 @@ const outputValue = useTransition(source, {
   align-items: flex-end;
 
   .value-box {
-    width: 225px;
+    width: 187px;
     border-radius: 5px;
     height: 74px;
     background: var(--monitor-hour-chart-background);
